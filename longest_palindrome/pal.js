@@ -1,5 +1,5 @@
 longestPalindrome=function(s){
- let arr = s.split(''),
+ let arr = s.split('').filter(i => i!=' '),
 str1 = s.split('').reverse().join(''),
 subarr = [],
 substr = '',
